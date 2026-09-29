@@ -10,7 +10,9 @@
   "author": {
     "name": "The Lynx Authors"
   },
-  "sideEffects": false,
+  "sideEffects": [
+    "**/*.css"
+  ],
   "type": "module",
   "main": "./dist/index.jsx",
   "module": "./dist/index.jsx",
@@ -18,6 +20,7 @@
   "files": [
     "src/**",
     "README.md",
+    "IMAGE_PREVIEW.md",
     "CHANGELOG.md",
     "LICENSE",
     "tsconfig.docs.json",

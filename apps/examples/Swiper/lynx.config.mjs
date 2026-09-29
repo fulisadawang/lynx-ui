@@ -6,6 +6,8 @@ import { exampleConfig } from '../../../tools/configs/exampleConfig.mjs'
 
 const defaultConfig = exampleConfig(
   {
+    ImagePreviewDemo: './ImagePreview/index.tsx',
+    ZoomableViewDemo: './ZoomableView/index.tsx',
     SwiperBasic: './Basic/index.tsx',
     SwiperCustomTinder: './CustomTinder/index.tsx',
     SwiperDifferentHeight: './DifferentHeight/index.tsx',

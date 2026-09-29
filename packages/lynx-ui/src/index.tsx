@@ -301,3 +301,16 @@ export type {
   PresenceAnimationStatus,
   PresenceState,
 } from '@lynx-js/lynx-ui-presence'
+
+// image-preview and zoomable-view
+export { ImagePreview, ZoomableView } from './image-preview'
+export type {
+  ImagePreviewItem,
+  ImagePreviewProps,
+  ImagePreviewToolbarProps,
+  ZoomableViewProps,
+  ZoomableViewRef,
+  ZoomableViewUIVariants,
+  ZoomPoint,
+  ZoomTransform,
+} from './image-preview'
